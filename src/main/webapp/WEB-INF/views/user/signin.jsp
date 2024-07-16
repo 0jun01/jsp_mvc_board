@@ -16,10 +16,10 @@
 		</c:if>
 		<form action="${pageContext.request.contextPath}/user/signin" method="POST">
 			<div class="form-group">
-				<label for="username">username : </label> <input type="text" id="username" name="username" value="고길동" required>
+				<label for="username">username : </label> <input type="text" id="username" name="username" value="user2" required>
 			</div>
 			<div class="form-group">
-				<label for="password">Password : </label> <input type="text" id="password" name="password" value="asd1234" required>
+				<label for="password">Password : </label> <input type="text" id="password" name="password" value="asd123" required>
 			</div>
 			<div class="form-group">
 				<input class="btn btn-primary" type="submit" value="로그인">

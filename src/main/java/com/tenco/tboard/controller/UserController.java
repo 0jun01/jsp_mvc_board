@@ -55,7 +55,7 @@ public class UserController extends HttpServlet {
 		// logout
 		HttpSession session = request.getSession();
 		session.invalidate();
-		response.sendRedirect(request.getContentType() + "/user/signin");
+		response.sendRedirect(request.getContextPath() + "/user/signin");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
